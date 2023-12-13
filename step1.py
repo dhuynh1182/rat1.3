@@ -11,6 +11,7 @@ from matplotlib import pyplot as plt
 
 path = "motherboard_image.jpeg"
 
+
 img_real = cv2.imread(path, cv2.IMREAD_COLOR)
 img_real = cv2.rotate(img_real, cv2.ROTATE_90_CLOCKWISE)
 
